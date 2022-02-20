@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ", url="t.me/FANTASTICFIGHTERBOT?startgroup=new"),
+            text="ᴀᴅᴅ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ", url="@RONIN_Fighters_Fd?startgroup=new"),
     ],
 ]
 
@@ -112,7 +112,7 @@ HELP_STRINGS = """
 
 EMI_IMG = "https://te.legra.ph/file/f95ebea77c1488dd21938.jpg"
 
-DONATE_STRING = """ʜᴏɪɪ ᴍᴇ [ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ](https://t.me/DUSHMANxRONIN)"""
+DONATE_STRING = """ʜᴏɪɪ ᴍᴇ [ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ](https://@Ronin_Fighters_Fd)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
