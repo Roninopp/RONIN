@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *𝙷𝙴𝙻𝙻𝙾  {} !*
-✪ 𝙸'𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 [✨](https://te.legra.ph/file/f95ebea77c1488dd21938.jpg)
+✪ 𝙸'𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 [✨](https://te.legra.ph/file/7e2fe426ac2dc50b56ad4.mp4.jpg)
 ────────────────────────
 × *𝚄𝙿𝚃𝙸𝙼𝙴 ✘* `{}`
 × `{}` *𝚄𝚂𝙴𝚁𝚂, 𝙰𝙲𝚁𝙾𝚂𝚂* `{}` *𝙲𝙷𝙰𝚃𝚂*
@@ -387,7 +387,7 @@ def siesta_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "siesta_back":
+    elif query.data == "samurai_back":
         first_name = update.effective_user.first_name
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
@@ -402,7 +402,7 @@ def siesta_about_callback(update, context):
                 disable_web_page_preview=False,
         )
 
-    elif query.data == "siesta_admin":
+    elif query.data == "samurai_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
             "\nCongragulations, Avivek Samurai now ready to manage your group."
